@@ -19,6 +19,8 @@
     </extensions>
 
     <actions>
-        <!-- Add your actions here -->
+        <action id="Myplugin.HelloAction" class="com.first.plugin.HelloAction" text="HelloPlugin" description="Says hello">
+            <add-to-group group-id="FileMenu" anchor="last"/>
+        </action>
     </actions>
 </idea-plugin>
